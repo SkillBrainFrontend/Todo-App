@@ -43,10 +43,11 @@ Since these are your first weeks with the React world, we would keep things simp
 
 ___
 
-## Requirements
+## Task Requirements
  
 >In software development, a user story is an actionable goal from the perspective of the user. Defining user stories before you begin your work will help you focus on work.
  
+
 ### **The app should fulfill the following stories:**
 
 
@@ -74,7 +75,7 @@ ___
  3. Mark todo as complete / done [ ⭐️ ⭐️ ]
     - By checking / unchecking the checkbox, todo item will update it's status and move to another list.
  4. Delete any task [⭐️]
-    - Clicking on delete button icon remove the coresponding item.
+    - Clicking on delete icon will remove the coresponding item.
  5. Editing any task [⭐️ ⭐️ ⭐️]
     - Clicking on edit icon will open the modal and prefill the form fields with corespending data.
     - User will be able to edit these fields and submit the form. 
