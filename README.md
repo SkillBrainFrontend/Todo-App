@@ -14,6 +14,7 @@ ___
 
 Since these are your first weeks with the React world, we would keep things simple. The starting code already includes the core components and styles - the building blocks you will need to implement this task. 
 
+
 > Make sure you understand the role of these components as you are going to use them in your implementation.
 
 
@@ -44,12 +45,15 @@ Since these are your first weeks with the React world, we would keep things simp
 ___
 
 ## Task Requirements
+
+💡 The requirements of the task as well as a description of the project structure can be found in this [video](https://class.skillbrain.com/unit/view/id:3264) 👈🏻
  
+
 >In software development, a user story is an actionable goal from the perspective of the user. Defining user stories before you begin your work will help you focus on work.
  
 
-### **The app should fulfill the following stories:**
-
+## ✅ The app should fulfill the following stories:
+___
 
 ### 1️⃣ View all todos in two separated list **active todos** and  **completed todos** [ ⭐️ ] 
   - Use a `state`  to store your todos. Initialize it from `TODOS_MOCK` array, found in `App.js` file. This array will help you to understand how your state should look like.
@@ -61,7 +65,7 @@ ___
       * **HINT !** use array methods: `map()` and `filter()`. 
          > By using the JavaScript method, map(), you will be able to create a new array of items by mapping over the todo items from state.
 
-         > By using the JavaScript method, filter(), you will be able to filter your array before mapping over the todo items.
+         > By using the JavaScript method, filter(), you will be able to filter your array before mapping.
          
 ### 2️⃣ Add todos  [⭐️]
    - Add the functionality into a form. 
@@ -71,10 +75,13 @@ ___
    - 2.1 [ ⭐️ ]  Your form will be displayed inside of modal component. You can import this component from `src/components/modal/Modal.jsx`
         * Clicking on `ADD + ` button will open the modal.
            >Don't forget to add a state to control your modal (open / close)
+
 ### 3️⃣ Mark todo as complete / done [ ⭐️ ⭐️ ]
  - By checking / unchecking the checkbox, todo item will update it's status and move to another list.
+
 ### 4️⃣ Delete any task [⭐️]
 - Clicking on delete icon will remove the coresponding item.
+
 ### 5️⃣ Editing any task [⭐️ ⭐️ ⭐️]
  - Clicking on edit icon will open the modal and prefill the form fields with corespending data.
  - User will be able to edit these fields and submit the form. 
