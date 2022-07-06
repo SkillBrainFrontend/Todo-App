@@ -63,19 +63,19 @@ ___
 
          > By using the JavaScript method, filter(), you will be able to filter your array before mapping over the todo items.
          
-### 2️⃣ Add todos [ ⭐️ ] 
-    - Add the functionality into a form. 
+### 2️⃣ Add todos  [⭐️]
+   - Add the functionality into a form. 
         * update the form by setting the state.
         * Handle the submit and add the new item to the `todo` list.
 
-          2.1 [ ⭐️ ]  Your form will be displayed inside of modal component. You can import this component from `src/components/modal/Modal.jsx`
+   - 2.1 [ ⭐️ ]  Your form will be displayed inside of modal component. You can import this component from `src/components/modal/Modal.jsx`
         * Clicking on `ADD + ` button will open the modal.
            >Don't forget to add a state to control your modal (open / close)
 ### 3️⃣ Mark todo as complete / done [ ⭐️ ⭐️ ]
-    - By checking / unchecking the checkbox, todo item will update it's status and move to another list.
+ - By checking / unchecking the checkbox, todo item will update it's status and move to another list.
 ### 4️⃣ Delete any task [⭐️]
-    - Clicking on delete icon will remove the coresponding item.
+- Clicking on delete icon will remove the coresponding item.
 ### 5️⃣ Editing any task [⭐️ ⭐️ ⭐️]
-    - Clicking on edit icon will open the modal and prefill the form fields with corespending data.
-    - User will be able to edit these fields and submit the form. 
-    - Todo Item will be updated.
+ - Clicking on edit icon will open the modal and prefill the form fields with corespending data.
+ - User will be able to edit these fields and submit the form. 
+ - Todo Item will be updated.
