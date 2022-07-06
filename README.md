@@ -52,10 +52,9 @@ ___
 >In software development, a user story is an actionable goal from the perspective of the user. Defining user stories before you begin your work will help you focus on work.
  
 
-## ✅ The app should fulfill the following stories:
-___
+### ✅ The app should fulfill the following stories:
 
-### 1️⃣ View all todos in two separated list **active todos** and  **completed todos** [ ⭐️ ] 
+#### 1️⃣ View all todos in two separated list **active todos** and  **completed todos** [ ⭐️ ] 
   - Use a `state`  to store your todos. Initialize it from `TODOS_MOCK` array, found in `App.js` file. This array will help you to understand how your state should look like.
   -   Display the todos from your `state` with `<TodoItem />` component.
       * Initially, the information displayed by `<TodoItem />` component is static. 
@@ -67,7 +66,7 @@ ___
 
          > By using the JavaScript method, filter(), you will be able to filter your array before mapping.
          
-### 2️⃣ Add todos  [⭐️]
+#### 2️⃣ Add todos  [⭐️]
    - Add the functionality into a form. 
         * update the form by setting the state.
         * Handle the submit and add the new item to the `todo` list.
@@ -76,13 +75,13 @@ ___
         * Clicking on `ADD + ` button will open the modal.
            >Don't forget to add a state to control your modal (open / close)
 
-### 3️⃣ Mark todo as complete / done [ ⭐️ ⭐️ ]
+#### 3️⃣ Mark todo as complete / done [ ⭐️ ⭐️ ]
  - By checking / unchecking the checkbox, todo item will update it's status and move to another list.
 
-### 4️⃣ Delete any task [⭐️]
+#### 4️⃣ Delete any task [⭐️]
 - Clicking on delete icon will remove the coresponding item.
 
-### 5️⃣ Editing any task [⭐️ ⭐️ ⭐️]
+#### 5️⃣ Editing any task [⭐️ ⭐️ ⭐️]
  - Clicking on edit icon will open the modal and prefill the form fields with corespending data.
  - User will be able to edit these fields and submit the form. 
  - Todo Item will be updated.
